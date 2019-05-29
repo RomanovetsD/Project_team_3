@@ -1,0 +1,54 @@
+.consultation {
+  margin: 0 auto;
+  height: 600px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+
+  .consultation__wrp-1 {
+    margin: 0 auto;
+    height: 140px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+
+    .consultation__wrp-1-h3 {
+      @include acrom-extrabold-black;
+      font-size: 20px;
+      letter-spacing: -2px;
+      line-height: 26px;
+    }
+  }
+
+  .consultation__wrp-2 {
+    margin: 0 auto;
+    height: 430px;
+    width: 260px;
+
+    .consultation__wrp-2-ul {
+      padding-left: 36px;
+
+      .consultation__wrp-2-ul-li {
+        padding-top: 20px;
+        @include acrom-regular-black;
+        font-size: 14px;
+        line-height: 18px;
+        list-style: none;
+        position: relative;
+      }
+
+      .consultation__wrp-2-ul-li::before {
+        display: block;
+        width: 33px;
+        height: 33px;
+        position: absolute;
+        content: "";
+        background: url("../images/marker-strelka.jpg") no-repeat;
+        background-repeat: no-repeat;
+        left: -36px;
+        top: 24px;
+      }
+    }
+  }
+}

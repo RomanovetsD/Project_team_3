@@ -1,0 +1,104 @@
+@media (min-width: 768px) {
+  .it_advantage-header {
+    width: 530px;
+    height: 115px;
+
+    &__h3 {
+      @include acrom-extrabold-black;
+      font-size: 30px;
+      line-height: 30px;
+      text-align: center;
+      padding: 55px 0 0 0;
+    }
+  }
+
+  .it_advantage-body {
+    width: 748px;
+    height: 920px;
+    justify-content: space-between;
+
+    &__box1 {
+      width: 700px;
+      height: 540px;
+      box-shadow: -15px 15px 0 0 rgba(206, 208, 210, 0.23), 0 0 30px 0 rgba(206, 208, 210, 0.23);
+
+      .it_advantage-body__box1-wrp-header {
+        margin: 0 auto;
+        width: 700px;
+        height: 130px;
+        align-items: center;
+        justify-content: center;
+
+        .it_advantage-body__box1-wrp-header-p {
+          @include acrom-extrabold-black;
+          font-size: 18px;
+          line-height: 24px;
+          padding: 0 180px;
+          text-align: center;
+        }
+      }
+
+      .it_advantage-body__box1-wrp-body {
+        margin: 0 auto;
+        width: 700px;
+        height: 230px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 55px;
+
+        .it_advantage-body__box1-wrp-body-ul {
+          list-style: none;
+          width: 215px;
+          height: 115px;
+
+          .it_advantage-body__box1-wrp-body-li1 {
+            @include acrom-extrabold-blue;
+            font-size: 30px;
+            padding-top: 15px;
+          }
+
+          .it_advantage-body__box1-wrp-body-li2 {
+            @include acrom-regular-black;
+            font-size: 14px;
+            padding-top: 5px;
+          }
+        }
+      }
+    }
+
+    &__box2 {
+      width: 660px;
+      height: 320px;
+
+      .it_advantage-body__box2-header {
+        height: 70px;
+        width: 660px;
+
+        .it_advantage-body__box2-header-h3 {
+          @include acrom-extrabold-black;
+          font-size: 30px;
+          padding-top: 10px;
+          text-align: center;
+        }
+      }
+
+      .it_advantage-body__box2-body {
+        height: 290px;
+        width: 360px;
+      }
+    }
+
+    .it_advantage-body__box2-body:after {
+      display: block;
+      width: 311px;
+      height: 193px;
+      position: absolute;
+      z-index: -1;
+      content: "";
+      background-image: url("../images/map-ua-blue.jpg");
+      top: -351px;
+      left: 305px;
+    }
+  }
+}

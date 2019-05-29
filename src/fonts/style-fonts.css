@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Acrom Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/acrom-bold.woff2') format('woff2'),
+       url('../fonts/acrom-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Acrom ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/acrom-extrabold.woff2') format('woff2'),
+       url('../fonts/acrom-extrabold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Acrom Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/acrom-light.woff2') format('woff2'),
+       url('../fonts/acrom-light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Acrom Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/acrom-medium.woff2') format('woff2'),
+       url('../fonts/acrom-medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Acrom Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/acrom-regular.woff2') format('woff2'),
+       url('../fonts/acrom-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Acrom Thin';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/acrom-thin.woff2') format('woff2'),
+       url('../fonts/acrom-thin.woff') format('woff');
+}

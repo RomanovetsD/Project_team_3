@@ -1,0 +1,91 @@
+@media (min-width: 1200px) {
+  .it_advantage-header {
+    width: 1140px;
+    height: 265px;
+
+    &__h3 {
+      @include acrom-extrabold-black;
+      font-size: 48px;
+      line-height: 48px;
+      text-align: left;
+      padding: 90px 660px 0 0;
+    }
+  }
+
+  .it_advantage-body {
+    width: 1170px;
+    height: 680px;
+    display: flex;
+    flex-direction: row;
+
+    &__box1 {
+      width: 700px;
+      height: 540px;
+      margin-left: 16px;
+
+      .it_advantage-body__box1-wrp-header {
+        margin: 0 auto;
+        width: 700px;
+        height: 130px;
+        align-items: center;
+        justify-content: center;
+
+        .it_advantage-body__box1-wrp-header-p {
+          @include acrom-extrabold-black;
+          font-size: 18px;
+          line-height: 24px;
+          padding: 0 180px;
+          text-align: center;
+        }
+      }
+    }
+
+    &__box2 {
+      width: 405px;
+      height: 465px;
+
+      .it_advantage-body__box2-header {
+        height: 170px;
+        width: 405px;
+
+        .it_advantage-body__box2-header-h3 {
+          @include acrom-extrabold-black;
+          font-size: 48px;
+          padding-top: 10px;
+          text-align: left;
+          line-height: 48px;
+        }
+      }
+
+      .it_advantage-body__box2-body {
+        height: 290px;
+        width: 360px;
+
+        .it_advantage-body__box2-body-ul {
+          padding-left: 15px;
+
+          .it_advantage-body__box2-body-ul-li {
+            padding: 20px 0 0 20px;
+            @include acrom-regular-black;
+            font-size: 18px;
+            line-height: 18px;
+            list-style: none;
+            position: relative;
+          }
+        }
+      }
+    }
+
+    .it_advantage-body__box2-body:after {
+      display: block;
+      width: 311px;
+      height: 193px;
+      position: absolute;
+      z-index: -1;
+      content: "";
+      background-image: url("../images/map-ua-gray.jpg");
+      top: 102px;
+      left: -422px;
+    }
+  }
+}
