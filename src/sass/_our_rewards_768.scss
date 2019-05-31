@@ -1,0 +1,124 @@
+@media (min-width: 768px) {
+  .container-fluid-our_rewards {
+    margin: 0 auto;
+    min-width: 300px;
+    height: 1220px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .our_rewards {
+    width: 500px;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .our_rewards-header {
+      margin: 0 auto;
+      width: 700px;
+
+      &__h2 {
+        @include acrom-extrabold-black;
+        font-size: 30px;
+        letter-spacing: -1px;
+        line-height: 26px;
+        text-align: left;
+        padding: 35px 60px 0 0;
+        display: block;
+      }
+
+      &__h3 {
+        @include acrom-extrabold-black;
+        font-size: 16px;
+        letter-spacing: -1px;
+        line-height: 26px;
+        text-align: left;
+        padding: 40px 65px 40px 0;
+        
+      }
+    }
+
+    .our_rewards-body {
+      margin: 0 auto;
+      width: 530px;
+
+      .our_rewards-awards {
+        width: 748px;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .our_rewards-body__tender {
+        width: 410px;
+        height: 280px;
+      }
+
+      .our_rewards-body__partners ul {
+        width: 680px;
+        height: 180px;
+      }
+
+      .our_rewards-body__box-1 {
+        height: 465px;
+        box-shadow: -15px 15px 0 0 rgba(206, 208, 210, 0.23),
+          0 0 30px 0 rgba(206, 208, 210, 0.23);
+      }
+      .our_rewards-body__box-2 {
+        height: 465px;
+        box-shadow: -15px 15px 0 0 rgba(206, 208, 210, 0.23),
+          0 0 30px 0 rgba(206, 208, 210, 0.23);
+      }
+      .our_rewards-body__box-3 {
+        height: 465px;
+        box-shadow: -15px 15px 0 0 rgba(206, 208, 210, 0.23),
+          0 0 30px 0 rgba(206, 208, 210, 0.23);
+      }
+
+      .our_rewards-body__box-3-header-p2 {
+        margin: 34px 0 5px 20px;
+      }
+
+      .our_rewards-body__box-1-header-p2 {
+        margin: 54px 0 47px 20px;
+      }
+
+      .our_rewards-body__box-3-header-img {
+        height: 20px;
+      }
+
+      .our_rewards-body__box-1-header-img {
+        height: 43px;
+      }
+
+      .our_rewards-body__box-2-header-p2 {
+        margin: 54px 0 9px 20px;
+        width: 205px;
+        height: 98px;
+      }
+
+      .our_rewards-body__box-2-header-img {
+        height: 48px;
+      }
+
+      .our_rewards-body__tender-header-p2 {
+        width: 400px;
+      }
+      .our_rewards-body__tender-header-p3 {
+        width: 325px;
+      }
+      .oon {
+        position: relative;
+        display: block;
+        left: 200%;
+      }
+
+      .our_rewards-body__partners {
+        width: 700px;
+        height: 490px;
+        margin: 0 0 0 0;
+      }
+    }
+  }
+}

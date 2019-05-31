@@ -1,0 +1,49 @@
+@media (min-width: 1200px) {
+  .container-fluid-our_rewards {
+    margin: 0 auto;
+    min-width: 300px;
+    height: 1320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+    .our_rewards {
+        width: 1200px;
+        height: 115px;
+        
+    
+        .our_rewards-header {
+          margin: 0 auto;
+          width: 1200px;
+
+
+          &__h2 {
+            @include acrom-extrabold-black;
+            font-size: 48px;
+            letter-spacing: -1px;
+            line-height: 1.25;
+            text-align: left;
+            padding: 35px 60px 0 0;
+            display: block;
+          }
+    
+          &__h3 {
+            @include acrom-extrabold-black;
+            font-size: 16px;
+            letter-spacing: -1px;
+            line-height: 26px;
+            text-align: left;
+            padding: 40px 65px 40px 0;
+            
+          }
+
+          .our_rewards-body{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+          }
+        }
+    }
+}

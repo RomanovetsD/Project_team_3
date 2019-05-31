@@ -1,0 +1,116 @@
+.container-fluid-personal-consultation {
+  margin: 0 auto;
+  min-width: 300px;
+  height: 1090px;
+  background: #edf0f2;
+
+  .personal-consultation-header {
+    margin: 0 auto;
+    height: 115px;
+    width: 225px;
+    display: flex;
+
+    .personal-consultation-header__h3 {
+      @include acrom-extrabold-black;
+      font-size: 20px;
+      letter-spacing: -1px;
+      line-height: 26px;
+      text-align: center;
+      padding-top: 40px;
+    }
+  }
+
+  .personal-consultation-body {
+    margin: 0 auto;
+    height: 834px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    &__box {
+      margin: 0 auto;
+      height: 230px;
+      width: 225px;
+      background: rgb(255, 255, 255);
+      box-shadow: -10px 10px 0px 0px rgba(206, 208, 210, 0.23);
+
+      .personal-consultation-body__box-p {
+        @include acrom-regular-black;
+        font-size: 16px;
+        letter-spacing: -1px;
+        line-height: 21px;
+        text-align: left;
+        padding: 10px 30px 0;
+      }
+
+      .personal-consultation-body__box-p::before {
+        content: "";
+        background-color: #00eaff;
+        width: 60px;
+        height: 2px;
+        display: block;
+        margin: 16px -42px;
+      }
+    }
+
+    &__box-1::after {
+      content: "";
+      background-image: url("../images/01-white-320.png");
+      width: 48px;
+      height: 25px;
+      display: block;
+      margin: -174px 177px;
+    }
+
+    &__box-2::after {
+      content: "";
+      background-image: url("../images/02-white-320.png");
+      width: 60px;
+      height: 25px;
+      display: block;
+      margin: -216px 167px;
+    }
+
+    &__box-3::after {
+      content: "";
+      background-image: url("../images/03-white-320.png");
+      width: 60px;
+      height: 25px;
+      display: block;
+      margin: -216px 165px;
+    }
+  }
+
+  .container-fluid-personal-consultation__wrp-btn {
+    margin: 0 auto;
+    height: 141px;
+    width: 225px;
+    display: flex;
+
+    .container-fluid-personal-consultation__btn {
+      width: 225px;
+      height: 110px;
+      cursor: pointer;
+      background: #ff6b08;
+      border: 0;
+      @include acrom-extrabold-white;
+      font-size: 14px;
+      color: rgb(255, 255, 255);
+      box-shadow: -1px 0px 15px -4px #ff6b08;
+      text-transform: uppercase;
+      transition: all 0.1s linear;
+    }
+
+    .container-fluid-personal-consultation__btn:hover {
+      box-shadow: -1px 0px 24px -4px #ff6b08;
+    }
+
+    .container-fluid-personal-consultation__btn:active {
+      width: 225px;
+      height: 110px;
+      border: 1px solid #fff;
+      box-shadow: -1px 0px 24px -4px #fff;
+    }
+  }
+}

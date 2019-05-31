@@ -1,0 +1,183 @@
+.it_advantage-header {
+  margin: 0 auto;
+  width: 260px;
+  height: 110px;
+
+  &__h3 {
+    @include acrom-extrabold-black;
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 26px;
+    text-align: left;
+    padding: 35px 65px 0 0;
+  }
+}
+
+.it_advantage-body {
+  margin: 0 auto;
+  width: 260px;
+  height: 1170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__box1 {
+    width: 260px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+
+    .it_advantage-body__box1-wrp-header {
+      margin: 0 auto;
+      width: 260px;
+      height: 80px;
+      display: flex;
+      align-items: flex-end;
+
+      .it_advantage-body__box1-wrp-header-p {
+        @include acrom-extrabold-black;
+        font-size: 14px;
+        letter-spacing: -1px;
+        line-height: 18px;
+        padding-right: 5px;
+      }
+    }
+
+    .it_advantage-body__box1-wrp-body {
+      margin: 0 auto;
+      width: 225px;
+      height: 590px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .it_advantage-body__box1-wrp-body-ul {
+        list-style: none;
+
+        .it_advantage-body__box1-wrp-body-li1 {
+          @include acrom-extrabold-blue;
+          font-size: 30px;
+          padding-top: 7px;
+        }
+
+        .it_advantage-body__box1-wrp-body-li2 {
+          @include acrom-regular-black;
+          font-size: 14px;
+          padding-top: 5px;
+        }
+      }
+
+      .it_advantage-body__box1-wrp-body-block {
+        width: 225px;
+        height: 150px;
+        padding-top: 15px;
+
+        .it_advantage-body__box1-wrp-body-block1 {
+          width: 225px;
+          height: 65px;
+
+          .it_advantage-body__box1-wrp-body-block1-p {
+            @include acrom-extrabold-black;
+            font-size: 14px;
+            letter-spacing: -1px;
+            line-height: 18px;
+          }
+        }
+
+        .it_advantage-body__box1-wrp-body-block2 {
+          width: 225px;
+          height: 80px;
+          display: flex;
+          flex-direction: row;
+
+          .it_advantage-body__box1-wrp-body-block2-box {
+            width: 112px;
+
+            .it_advantage-body__ul {
+              list-style: none;
+
+              .it_advantage-body__li1 {
+                @include acrom-extrabold-blue;
+                font-size: 25px;
+                letter-spacing: -1px;
+                padding-top: 5px;
+              }
+
+              .it_advantage-body__li2 {
+                @include acrom-regular-black;
+                font-size: 10px;
+                line-height: 10px;
+                padding-top: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__box2 {
+    width: 260px;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+
+    .it_advantage-body__box2-header {
+      height: 60px;
+      width: 260px;
+      display: flex;
+      flex-direction: column;
+
+      .it_advantage-body__box2-header-h3 {
+        @include acrom-extrabold-black;
+        font-size: 20px;
+        letter-spacing: -1px;
+        line-height: 22px;
+        padding-top: 10px;
+      }
+    }
+
+    .it_advantage-body__box2-body {
+      height: 290px;
+      width: 260px;
+      position: relative;
+
+      .it_advantage-body__box2-body-ul {
+        padding-left: 15px;
+
+        .it_advantage-body__box2-body-ul-li {
+          padding: 20px 0 0 20px;
+          @include acrom-regular-black;
+          font-size: 14px;
+          line-height: 18px;
+          list-style: none;
+          position: relative;
+        }
+
+        .it_advantage-body__box2-body-ul-li::before {
+          display: block;
+          width: 12px;
+          height: 12px;
+          position: absolute;
+          content: "";
+          background: url("../images/marker-kub.jpg") no-repeat;
+          background-repeat: no-repeat;
+          left: -15px;
+          top: 24px;
+        }
+      }
+    }
+
+    .it_advantage-body__box2-body:after {
+      display: block;
+      width: 311px;
+      height: 193px;
+      position: absolute;
+      z-index: -1;
+      content: "";
+      background-image: url("../images/map-ua-gray.jpg");
+      top: -350px;
+      left: 20px;
+    }
+  }
+}

@@ -1,0 +1,111 @@
+// ===start: media 1200=== //
+@media (min-width: 1200px) {
+  .container-fluid-ywti {
+    margin: 0 auto;
+    min-width: 1180px;
+    height: 640px;
+    background-image: url("../images/photo-header-1200.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .container-fluid-ywti {
+      background-image: url("../images/photo-header-1200@x2.jpg");
+    }
+  }
+
+  .wrp-ywti {
+    margin: 0 auto;
+    width: 1170px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    // background: rgb(112, 112, 112);
+
+    .ywti-header {
+      height: 200px;
+      width: 700px;
+
+      &__txt {
+        @include acrom-extrabold-white;
+        font-size: 30px;
+        text-align: left;
+        text-transform: none;
+        padding: 105px 10px 0 15px;
+        line-height: 30px;
+      }
+    }
+
+    .ywti-body {
+      height: 600px;
+      width: 340px;
+      order: 1;
+
+      &__txt2 {
+        @include acrom-regular-white;
+        font-size: 18px;
+        text-align: left;
+        line-height: 18px;
+        padding: 165px 0 0 0;
+        line-height: 42px;
+      }
+
+      &__txt2::before {
+        content: "";
+        background-color: #00eaff;
+        width: 60px;
+        height: 2px;
+        display: block;
+        margin: 10px 0;
+      }
+    }
+
+    .ywti-footer {
+      height: 200px;
+      width: 700px;
+
+      &__txt3 {
+        @include acrom-extrabold-blue;
+        font-size: 48px;
+        line-height: 50px;
+        padding: 45px 0 0 15px;
+        letter-spacing: -3px;
+      }
+    }
+
+    .ywti-wrp-btn {
+      height: 220px;
+      width: 700px;
+
+      &__btn {
+        width: 680px;
+        height: 110px;
+        margin-left: 15px;
+        cursor: pointer;
+        background: #ff6b08;
+        border: 0;
+        @include acrom-extrabold-white;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        box-shadow: -1px 0px 15px -4px #ff6b08;
+        text-transform: uppercase;
+        transition: all 0.1s linear;
+      }
+
+      &__btn:hover {
+        box-shadow: -1px 0px 24px -4px #ff6b08;
+      }
+
+      &__btn:active {
+        width: 680px;
+        height: 110px;
+        border: 1px solid #fff;
+        box-shadow: -1px 0px 24px -4px #fff;
+      }
+    }
+  }
+}

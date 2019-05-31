@@ -1,0 +1,62 @@
+// ===start: media 1200=== //
+@media (min-width: 1200px) {
+  .container-fluid-footer {
+    margin: 0 auto;
+    min-width: 1180px;
+    height: 1050px;
+    background-image: url("../images/photo-footer-1200.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .container-fluid-footer {
+      background-image: url("../images/photo-footer-1200@x2.jpg");
+    }
+  }
+
+  .footer {
+    margin: 0 auto;
+    height: 1050px;
+    width: 1140px;
+
+    &__txt {
+      width: 1140px;
+      height: 330px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+
+      .footer__txt_link {
+        @include acrom-extrabold-blue;
+        font-size: 60px;
+        text-transform: uppercase;
+      }
+    }
+
+    &__wrp {
+      height: 140px;
+      width: 1140px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      .footer__wrp-logo {
+        text-align: center;
+        padding-bottom: 0;
+      }
+
+      .footer__wrp-p {
+        padding-left: 20px;
+
+        .footer__wrp-p-txt {
+          @include acrom-regular-white;
+          font-size: 25px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

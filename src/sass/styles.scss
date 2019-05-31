@@ -1,4 +1,33 @@
-/*
-   Import partials below
-*/
-@import './normalize';
+/* Import partials below */
+@import "./variables";
+@import "./mixins";
+@import "./normalize";
+@import "./base";
+// 1.header
+@import "./header_320";
+@import "./header_768";
+@import "./header_1200";
+// 2.consultation
+@import "./consultation_320";
+@import "./consultation_768";
+@import "./consultation_1200";
+// 3.personal_consultation
+@import "./personal_consultation_320";
+@import "./personal_consultation_768";
+@import "./personal_consultation_1200";
+// 4.it_advantage
+@import "./it_advantage_320";
+@import "./it_advantage_768";
+@import "./it_advantage_1200";
+// 5.your_way_to_it
+@import "./your_way_to_it_320";
+@import "./your_way_to_it_768";
+@import "./your_way_to_it_1200";
+// 6.our_rewards
+@import "./our_rewards_320";
+@import "./our_rewards_768";
+@import "./our_rewards_1200";
+// 7.footer
+@import "./footer_320";
+@import "./footer_768";
+@import "./footer_1200";

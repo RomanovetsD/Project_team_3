@@ -1,0 +1,115 @@
+// ===start: media 768=== //
+@media (min-width: 768px) {
+  .container-fluid-header {
+    margin: 0 auto;
+    min-width: 748px;
+    min-height: 900px;
+    background-image: url("../images/photo-header-768.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .container-fluid-header {
+      background-image: url("../images/photo-header-768@x2.jpg");
+    }
+  }
+
+  .header {
+    margin: 0 auto;
+    height: 900px;
+    width: 620px;
+
+    &__txt {
+      margin: 35px auto 0;
+      width: 620px;
+      height: 410px;
+
+      .header__txt-p-white {
+        @include acrom-regular-white;
+        font-size: 14px;
+        padding: 30px 108px 30px 0;
+      }
+
+      .header__txt-h1-blue {
+        @include acrom-extrabold-blue;
+        font-size: 40px;
+      }
+
+      .header__txt-p-white--18px {
+        font-size: 18px;
+        padding-right: 44px;
+      }
+
+      .header__txt-p-yellow {
+        @include acrom-bold-yellow;
+        font-size: 18px;
+      }
+
+      .header__txt-h2-yellow {
+        @include acrom-extrabold-yellow;
+        font-size: 40px;
+      }
+    }
+
+    &__form {
+      width: 620px;
+      height: 400px;
+      padding: 40px 60px;
+
+      .header__form-h3-black {
+        @include acrom-extrabold-black;
+        font-size: 24px;
+        text-align: center;
+      }
+
+      .header__form-p-black {
+        @include acrom-light-black;
+        font-size: 13px;
+        padding-top: 30px;
+        text-align: center;
+        line-height: 15px;
+      }
+
+      .header__form-wrp {
+        width: 470px;
+        height: 260px;
+
+        .header__form-wrp-box {
+          padding-top: 15px;
+        }
+
+        input {
+          border: 1px solid #757575;
+          box-shadow: none;
+          width: 470px;
+        }
+
+        .header__form-wrp-btn {
+          padding-top: 20px;
+
+          .header__form-btn {
+            width: 470px;
+          }
+
+          .header__form-btn:active {
+            width: 470px;
+          }
+        }
+      }
+
+      .header__form-link-wrp {
+        padding-top: 40px;
+        text-align: center;
+
+        .header__form-link {
+          @include acrom-regular-gray;
+          font-size: 13px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+// ===end: media 768=== //

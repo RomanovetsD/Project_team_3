@@ -1,20 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Placeholder title</title>
-    <link rel="stylesheet" href="css/styles.min.css" />
-  </head>
-  <body>
-    //= html/header.html
-    //= html/consultation.html
-    //= html/personal_consultation.html
-    //= html/it_advantage.html
-    //= html/your_way_to_it.html
-    //= html/our_rewards.html
-    //= html/footer.html
-    <script src="js/scripts.min.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Party_3</title>
+  <link rel="stylesheet" href="css/styles.min.css" />
+  <link rel="stylesheet" href="fonts/style-fonts.css" />
+</head>
+
+<body>
+  <div class="container-fluid-header">
+    <!-- 1.START: HEADER -->
+    <header class="header">
+      <div class="header__txt">
+        <div class="header__txt-logo">
+          <a href="#">
+            <img src="./images/logo.png" alt="logo">
+          </a>
+        </div>
+        <p class="header__txt-p-white">Бесплатная презентация для тех, кто хочет сменить профессию и начать карьеру в
+          IT-сфере</p>
+        <h1 class="header__txt-h1-blue">Узнай за 1 час каким может быть твой путь в IT</h1>
+        <p class="header__txt-p-white header__txt-p-white--18px header__txt-p-white--35px">Как с нуля всего за 3-5
+          месяцев получить все необходимые знания и навыки для уверенного старта карьеры в IT.</p>
+        <p class="header__txt-p-yellow">Ближайшая встреча</p>
+        <h2 class="header__txt-h2-yellow">Киев, 16 декабря 19:00</h2>
+      </div>
+
+      <div class="header__form">
+        <h3 class="header__form-h3-black">Оставьте заявку на участие в бесплатной презентации</h3>
+        <p class="header__form-p-black">С вами свяжется карьерный консультант и ответит на вопросы.</p>
+        <form class="header__form-wrp" action="#" method="POST">
+          <!-- 1 -->
+          <div class="header__form-wrp-box">
+            <label for="name"></label>
+            <input class="contact-input" type="text" id="name" required placeholder="Имя">
+          </div>
+          <!-- 2 -->
+          <div class="header__form-wrp-box">
+            <label for="email"></label>
+            <input class="contact-input" type="email" id="email" required placeholder="Email">
+          </div>
+          <!-- 3 -->
+          <div class="header__form-wrp-box">
+            <label for="phone"></label>
+            <input class="contact-input" type="tel" id="phone" required placeholder="Телефон">
+          </div>
+          <!-- button -->
+          <div class="header__form-wrp-btn">
+            <button class="header__form-btn">оставить заявку</button>
+          </div>
+        </form>
+        <div class="header__form-link-wrp">
+          <a href="#" class="header__form-link">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </header>
+  </div>
+  <!-- END: HEADER -->
+
+  <!-- 2.START: CONSULTATION -->
+  <div class="consultation">
+    <div class="consultation__wrp-1">
+      <h3 class="consultation__wrp-1-h3">[ На консультации ты получишь ответы на все ключевые вопросы про IT_ ]
+      </h3>
+    </div>
+    <div class="consultation__wrp-2">
+      <ul class="consultation__wrp-2-ul">
+        <li class="consultation__wrp-2-ul-li">Что из себя представляет IT-сфера в Украине на самом деле?</li>
+        <li class="consultation__wrp-2-ul-li">Почему IT-сфера растет даже в кризис, а IT компании обеспечивают идеальные
+          условия работы для специалистов?</li>
+        <li class="consultation__wrp-2-ul-li">Какие направления есть в IT рынке и что нужно для старта в каждом из них?
+        </li>
+        <li class="consultation__wrp-2-ul-li">За что специалисты с 3-х летним опытом в IT получают зарплаты по
+          <b>$2000-3500?</b></li>
+        <li class="consultation__wrp-2-ul-li">Что нужно сделать, чтобы уже через <b>3-5 месяцев</b> начать карьеру в IT
+          и получить первую работу с ЗП от <b>$700</b> до <b>$1200?</b> </li>
+      </ul>
+    </div>
+  </div>
+  <!-- END: CONSULTATION -->
+
+  <!-- 3.START: PERSONAL CONSULTATION -->
+  <div class="container-fluid-personal-consultation">
+    <div class="personal-consultation-header">
+      <h3 class="personal-consultation-header__h3">[ Также вы получите личную консультацию по старту карьеры_ ]</h3>
+    </div>
+    <div class="personal-consultation-body">
+      <div class="personal-consultation-body__box
+                  personal-consultation-body__box-1">
+        <p class="personal-consultation-body__box-p">Определите какое направление будет легче, интересней и быстрее
+          освоить <b>именно вам</b>.</p>
+      </div>
+      <div class="personal-consultation-body__box
+                  personal-consultation-body__box-2">
+        <p class="personal-consultation-body__box-p">Вместе с консультантом сформируете пошаговый план входа в IT <b>с
+            учетом ваших текущих знаний</b> и навыков.</p>
+      </div>
+      <div class="personal-consultation-body__box
+                  personal-consultation-body__box-3">
+        <p class="personal-consultation-body__box-p">Получите доступ <b>к 3-м развернутым видео</b> по ключевым
+          направлениям в IT, чтобы самостоятельно изучить все детали.</p>
+      </div>
+    </div>
+    <div class="container-fluid-personal-consultation__wrp-btn">
+      <button class="container-fluid-personal-consultation__btn">Получить бесплатный доступ ко всем материалам</button>
+    </div>
+  </div>
+  <!-- END: PERSONAL CONSULTATION -->
+
+  <!-- 4.START: IT ADVANTAGE -->
+  <div class="it_advantage">
+    <div class="it_advantage-header">
+      <h3 class="it_advantage-header__h3">[ Почему сфера IT так интересна ]</h3>
+    </div>
+    <div class="it_advantage-body">
+      <div class="it_advantage-body__box1">
+        <div class="it_advantage-body__box1-wrp-header">
+          <p class="it_advantage-body__box1-wrp-header-p">Сегодня подготовили для вас обзор рынка из отчета ассоциации
+            IT Ukraine</p>
+        </div>
+        <div class="it_advantage-body__box1-wrp-body">
+          <ul class="it_advantage-body__box1-wrp-body-ul">
+            <li class="it_advantage-body__box1-wrp-body-li1">12634</li>
+            <li class="it_advantage-body__box1-wrp-body-li2">IT-компании<br> зарегистрированы<br> в Украине</li>
+          </ul>
+          <ul class="it_advantage-body__box1-wrp-body-ul">
+            <li class="it_advantage-body__box1-wrp-body-li1">2500$</li>
+            <li class="it_advantage-body__box1-wrp-body-li2">Средний доход<br> IT-специалиста</li>
+          </ul>
+          <ul class="it_advantage-body__box1-wrp-body-ul">
+            <li class="it_advantage-body__box1-wrp-body-li1">127тыс.</li>
+            <li class="it_advantage-body__box1-wrp-body-li2">Человек работает<br> Украинской IT-сфере<br> сейчас</li>
+          </ul>
+          <ul class="it_advantage-body__box1-wrp-body-ul">
+            <li class="it_advantage-body__box1-wrp-body-li1">2000</li>
+            <li class="it_advantage-body__box1-wrp-body-li2">Новых IT-компаний<br> появилось за 2 года</li>
+          </ul>
+          <ul class="it_advantage-body__box1-wrp-body-ul">
+            <li class="it_advantage-body__box1-wrp-body-li1">83%</li>
+            <li class="it_advantage-body__box1-wrp-body-li2">Всех затрат IT компаний<br> - это затраты на оплату<br>
+              труда разработчиков</li>
+          </ul>
+          <ul class="it_advantage-body__box1-wrp-body-ul">
+            <li class="it_advantage-body__box1-wrp-body-li1">200тыс.</li>
+            <li class="it_advantage-body__box1-wrp-body-li2">IT-специалистов по<br> прогнозам будет<br> в стране через
+              4-5 лет</li>
+          </ul>
+          <div class="it_advantage-body__box1-wrp-body-block">
+            <div class="it_advantage-body__box1-wrp-body-block1">
+              <p class="it_advantage-body__box1-wrp-body-block1-p">Доход IT-шников превышает среднюю зарплату по другим
+                отраслям</p>
+            </div>
+            <div class="it_advantage-body__box1-wrp-body-block2">
+              <div class="it_advantage-body__box1-wrp-body-block2-box">
+                <ul class="it_advantage-body__ul">
+                  <li class="it_advantage-body__li1">в 7 раз</li>
+                  <li class="it_advantage-body__li2">при официальном трудоустройстве IT-специалиста</li>
+                </ul>
+              </div>
+              <div class="it_advantage-body__box1-wrp-body-block2-box">
+                <ul class="it_advantage-body__ul">
+                  <li class="it_advantage-body__li1">в 7,8 раз</li>
+                  <li class="it_advantage-body__li2">при работе через ФОП</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="it_advantage-body__box1-wrp-footer"></div>
+      </div>
+      <div class="it_advantage-body__box2">
+        <div class="it_advantage-body__box2-header">
+          <h3 class="it_advantage-body__box2-header-h3">[ При этом IT компании предлагают... ]</h3>
+        </div>
+        <div class="it_advantage-body__box2-body">
+          <ul class="it_advantage-body__box2-body-ul">
+            <li class="it_advantage-body__box2-body-ul-li">Стабильно высокие зарплаты в долларах.</li>
+            <li class="it_advantage-body__box2-body-ul-li">Стабильный карьерный рост согласно вашим реальным знаниям и
+              навыкам.</li>
+            <li class="it_advantage-body__box2-body-ul-li">Комплексный соц. пакет.</li>
+            <li class="it_advantage-body__box2-body-ul-li">Отличные условия труда в современных офисах.</li>
+            <li class="it_advantage-body__box2-body-ul-li">Гибкий рабочий график и возможность работы даже из дома.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END: IT ADVANTAGE -->
+
+  <!-- 5.START: YOUR WAY TO IT -->
+  <div class="container-fluid-ywti">
+    <div class="wrp-ywti">
+      <div class="ywti-header">
+        <p class="ywti-header__txt">Устал растрачивать свой потенциал, работая за копейки
+          в стагнирующей отрасли или на ненависной тебе работе?</p>
+      </div>
+      <div class="ywti-body">
+        <p class="ywti-body__txt2"><b>Сейчас на IT рынке работы намного больше, чем квалифицированных кадров, способных
+            ее выполнять.</b> Работы, за которую платят много и без задержек. Потому что конкуренция за толковых
+          специалистов между компаниями крайне высока. И эта тенденция будет только усиливаться.</p>
+      </div>
+      <div class="ywti-footer">
+        <h4 class="ywti-footer__txt3">[ Узнай, как именно начнется твой путь в IT_ ]</h4>
+      </div>
+      <div class="ywti-wrp-btn">
+        <button class="ywti-wrp-btn__btn">Получить бесплатный доступ ко всем материалам</button>
+      </div>
+    </div>
+  </div>
+  <!-- END: YOUR WAY TO IT -->
+
+  <!-- 6.START Our_rewards-->
+  <div class="container-fluid-our_rewards">
+  <div class="our_rewards">
+    <div class="our_rewards-header">
+      <h2 class="our_rewards-header__h2">[ Кто мы такие и почему все это рассказываем_ ]</h2>
+      <h3 class="our_rewards-header__h3">[ Награды ]</h3>
+    </div>
+  
+    <div class="our_rewards-body">
+      <div class="our_rewards-awards">
+        <div class="our_rewards-body__box-1">
+          <div class="our_rewards-body__box-1-header-p1">
+            <p>Best IT Education 2015</p>
+          </div>
+          <div class="our_rewards-body__box-1-header-p2">
+            <p><b>Награждена компания GoIT </b>за вклад </br> в подготовку сильных
+              Junior-специалистов.</p>
+            </p>
+          </div>
+          <div class="our_rewards-body__box-1-header-img"><a href="#"><img src="./images/best-it-education.jpg"
+                alt="best-it-education"></a></div>
+        </div>
+        <div class="our_rewards-body__box-2">
+          <p class="our_rewards-body__box-2-header-p1">Ukranian IT Awards 2016</p>
+          <p class="our_rewards-body__box-2-header-p2"><b>Награжден сооснователь GoIT Андрей Пивоваров </b>за выдающийся
+            вклад в IT-обучение украинский Junior-разработчиков.</p>
+          <div class="our_rewards-body__box-2-header-img"><a href="#"><img src="./images/ukr-it-awards.jpg"
+                alt="ukr-it-awards"></a>
+          </div>
+        </div>
+        <div class="our_rewards-body__box-3">
+          <p class="our_rewards-body__box-3-header-p1">Украинская народная премия 2018</p>
+          <p class="our_rewards-body__box-3-header-p2"><b>Победа в номинации IT-образование 2018 </b>Всеукраинский
+            национальный проект определил GoIT лидером в отрасли IT образования.</p>
+          <div class="our_rewards-body__box-3-header-img"><a href="#"><img src="./images/ukr-nar-prem.jpg"
+                alt="ukr-nar-prem"></a>
+          </div>
+        </div>
+      </div>
+      <div class="our_rewards-body__tender">
+        <div class="our_rewards-tender__img"><a href="#"><img src="./images/oon.jpg" alt="oon" class="oon"></a></div>
+        <p class="our_rewards-body__tender-header-p1">[ Go for It ]</p>
+        <p class="our_rewards-body__tender-header-p2">GOIT выиграла тендер ПР OOH УКРАИНА</p>
+        <p class="our_rewards-body__tender-header-p3">На реализацию социального проекта по бесплатному обучению
+          Frontend.
+          Мы стали самой молодой компанией-партнером ПР ООН. В рамках проекта Go fot IT мы обязались обучить
+          Frontend-разработке 300 переселенцев.</p>
+      </div>
+      <div class="our_rewards-body__partners">
+        <p class="our_rewards-body__partners-header-p1">[ Партнеры ]</p>
+        <div class="our_rewards-body__partners-ul">
+          <ul class="our_rewards-body__partners-list">
+            <li><a class="epam"></a></li>
+            <li><a class="kuehne-nagel"></a></li>
+            <li><a class="crytek"></a></li>
+            <li><a class="ciklum"></a></li>
+            <li><a class="inovecs"></a></li>
+            <li><a class="softserve"></a></li>
+            <li><a class="global-logic"></a></li>
+            <li><a class="alfa-bank"></a></li>
+            <li><a class="go-iteens"></a></li>
+            <li><a class="infopulse"></a></li>
+            <li><a class="ubisift"></a></li>
+            <li><a class="luxoft"></a></li>
+            <li><a class="lenal"></a></li>
+            <li><a class="terrasoft"></a></li>
+            <li><a class="grossum"></a></li>
+            <li><a class="template-monster"></a></li>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- END: Our_rewards -->
+  <!-- 7.START: FOOTER -->
+  <div class="container-fluid-footer">
+    <footer class="footer">
+      <div class="footer__txt">
+        <a class="footer__txt_link" href="#">ОСТАВИТЬ ЗАЯВКУ</a>
+      </div>
+      <div class="footer__wrp">
+        <div class="footer__wrp-logo">
+          <a href="#">
+            <img src="./images/logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="footer__wrp-p">
+          <p class="footer__wrp-p-txt">Создай свою историю успеха!</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- END: FOOTER -->
+  <script src="js/scripts.min.js"></script>
+</body>
+
 </html>

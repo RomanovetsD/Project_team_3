@@ -1,0 +1,79 @@
+@media (min-width: 768px) {
+  .container-fluid-personal-consultation {
+    margin: 0 auto;
+    min-width: 748px;
+    height: 570px;
+
+    .personal-consultation-header {
+      margin: 0 auto;
+      height: 120px;
+      width: 748px;
+
+      .personal-consultation-header__h3 {
+        @include acrom-extrabold-black;
+        font-size: 30px;
+        line-height: 36px;
+        padding: 50px 60px 0;
+      }
+    }
+
+    .personal-consultation-body {
+      height: 320px;
+      width: 748px;
+      display: flex;
+      flex-direction: row;
+
+      &__box {
+        margin: 45px auto;
+        height: 230px;
+        width: 228px;
+      }
+
+      &__box-1::after {
+        content: "";
+        background-image: url("../images/01-white-768.png");
+        width: 67px;
+        height: 31px;
+        display: block;
+        margin: -180px 161px;
+      }
+
+      &__box-2::after {
+        content: "";
+        background-image: url("../images/02-white-768.png");
+        width: 82px;
+        height: 31px;
+        display: block;
+        margin: -222px 145px;
+      }
+
+      &__box-3::after {
+        content: "";
+        background-image: url("../images/03-white-768.png");
+        width: 83px;
+        height: 31px;
+        display: block;
+        margin: -222px 146px;
+      }
+    }
+
+    .container-fluid-personal-consultation__wrp-btn {
+      margin: 0 auto;
+      height: 130px;
+      width: 530px;
+      padding-top: 0;
+
+      .container-fluid-personal-consultation__btn {
+        width: 530px;
+        height: 70px;
+        font-size: 18px;
+        text-transform: none;
+      }
+
+      .container-fluid-personal-consultation__btn:active {
+        width: 530px;
+        height: 70px;
+      }
+    }
+  }
+}
