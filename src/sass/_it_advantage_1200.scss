@@ -1,91 +1,75 @@
 @media (min-width: 1200px) {
-  .it_advantage-header {
+  .rewards {
     width: 1140px;
-    height: 265px;
-
-    &__h3 {
-      @include acrom-extrabold-black;
-      font-size: 48px;
-      line-height: 48px;
-      text-align: left;
-      padding: 90px 660px 0 0;
-    }
   }
 
-  .it_advantage-body {
-    width: 1170px;
-    height: 680px;
+  .reward-flex {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .rewards-description {
+    width: 700px;
+    margin: 30px 0;
+  }
 
-    &__box1 {
-      width: 700px;
-      height: 540px;
-      margin-left: 16px;
+  .rewards-container {
+    width: 1170px;
+  }
 
-      .it_advantage-body__box1-wrp-header {
-        margin: 0 auto;
-        width: 700px;
-        height: 130px;
-        align-items: center;
-        justify-content: center;
+  .rewards-social__title {
+    margin-top: 20px;
+  }
 
-        .it_advantage-body__box1-wrp-header-p {
-          @include acrom-extrabold-black;
-          font-size: 18px;
-          line-height: 24px;
-          padding: 0 180px;
-          text-align: center;
-        }
-      }
+  .rewards-subtitle {
+    width: 570px;
+    @include acrom-regular-black;
+    font-size: 48px;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 1.25;
+  }
+
+  .rewards-name--social {
+    margin-bottom: 20px;
+  }
+
+  .rewards-social {
+    order: 0;
+    width: 390px;
+  }
+  .rewards-partners {
+    order: 1;
+    width: 668px;
+    margin: 0;
+    margin-left: 80px;
+  }
+  .rewards {
+    order: 2;
+    width: 1170px;
+  }
+
+  .rewards-card {
+    position: relative;
+    display: flex;
+    width: 390px;
+    box-shadow: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    align-items: flex-start;
+
+    &__number {
+      transform: rotate(270deg);
+      @include acrom-regular-white;
+      font-size: 30px;
     }
 
-    &__box2 {
-      width: 405px;
-      height: 465px;
-
-      .it_advantage-body__box2-header {
-        height: 170px;
-        width: 405px;
-
-        .it_advantage-body__box2-header-h3 {
-          @include acrom-extrabold-black;
-          font-size: 48px;
-          padding-top: 10px;
-          text-align: left;
-          line-height: 48px;
-        }
-      }
-
-      .it_advantage-body__box2-body {
-        height: 290px;
-        width: 360px;
-
-        .it_advantage-body__box2-body-ul {
-          padding-left: 15px;
-
-          .it_advantage-body__box2-body-ul-li {
-            padding: 20px 0 0 20px;
-            @include acrom-regular-black;
-            font-size: 18px;
-            line-height: 18px;
-            list-style: none;
-            position: relative;
-          }
-        }
-      }
+    &::before {
+      display: none;
     }
-
-    .it_advantage-body__box2-body:after {
-      display: block;
-      width: 311px;
-      height: 193px;
-      position: absolute;
-      z-index: -1;
-      content: "";
-      background-image: url("../images/map-ua-gray.jpg");
-      top: 102px;
-      left: -422px;
-    }
+  }
+  .rewards-name--cards {
+    margin-left: 10px;
   }
 }

@@ -8,6 +8,12 @@
     background-size: cover;
   }
 
+
+  .rewards-subtitle {
+    @include acrom-extrabold-black;
+    width: 600px;
+  }
+  
     .our_rewards {
         width: 1200px;
         height: 115px;
@@ -39,10 +45,10 @@
           }
 
           .our_rewards-body{
+            width: 1170px;
             display: flex;
-            flex-direction: row;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-around;
           }
         }
     }
