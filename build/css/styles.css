@@ -1,0 +1,2657 @@
+/* Import partials below */
+
+/* fonts */
+
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+
+/**
+   * Remove the margin in all browsers.
+   */
+
+body {
+  margin: 0;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+
+/**
+   * Add the correct display in IE 10+.
+   */
+
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+
+[hidden] {
+  display: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+h1,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid-header {
+  margin: 0 auto;
+  min-width: 300px;
+  height: 800px;
+  background-image: url("../images/photo-header-320.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  margin: 0 auto;
+  height: 800px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__txt {
+  margin: 25px auto 0;
+  width: 260px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__txt .header__txt-p-white {
+  font-family: "Acrom Regular", sans-serif;
+  color: white;
+  letter-spacing: -1px;
+  font-size: 14px;
+  padding: 25px 0 25px;
+}
+
+.header__txt .header__txt-h1-blue {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: #00eaff;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 20px;
+}
+
+.header__txt .header__txt-p-yellow {
+  font-family: "Acrom Bold", sans-serif;
+  color: #f9ae23;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 14px;
+}
+
+.header__txt .header__txt-h2-yellow {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: #f9ae23;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 20px;
+}
+
+.header__form {
+  margin: 0 auto;
+  background: white;
+  width: 260px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.header__form .header__form-h3-black {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header__form .header__form-p-black {
+  font-family: "Acrom Light", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  padding-top: 15px;
+  line-height: 15px;
+}
+
+.header__form .header__form-wrp {
+  width: 220px;
+  height: 230px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__form .header__form-wrp .header__form-wrp-box {
+  padding-top: 15px;
+}
+
+.header__form .header__form-wrp input {
+  border: 1px solid #757575;
+  box-shadow: none;
+  width: 220px;
+  height: 40px;
+  font-family: "Acrom Medium", sans-serif;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.header__form .header__form-wrp .header__form-wrp-btn {
+  padding-top: 20px;
+}
+
+.header__form .header__form-wrp .header__form-wrp-btn .header__form-btn {
+  width: 220px;
+  height: 40px;
+  cursor: pointer;
+  background: #ff6b08;
+  border: 0;
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  box-shadow: -1px 0px 15px -4px #ff6b08;
+  text-transform: uppercase;
+  transition: all 0.1s linear;
+}
+
+.header__form .header__form-wrp .header__form-wrp-btn .header__form-btn:hover {
+  box-shadow: -1px 0px 24px -4px #ff6b08;
+}
+
+.header__form .header__form-wrp .header__form-wrp-btn .header__form-btn:active {
+  width: 220px;
+  height: 40px;
+  border: 1px solid #fff;
+  box-shadow: -1px 0px 24px -4px #fff;
+}
+
+.header__form .header__form-link-wrp {
+  padding-top: 30px;
+}
+
+.header__form .header__form-link-wrp .header__form-link {
+  font-family: "Acrom Regular", sans-serif;
+  color: #5d6066;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.consultation {
+  margin: 0 auto;
+  height: 600px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.consultation .consultation__wrp-1 {
+  margin: 0 auto;
+  height: 140px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+.consultation .consultation__wrp-1 .consultation__wrp-1-h3 {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -2px;
+  line-height: 26px;
+}
+
+.consultation .consultation__wrp-2 {
+  margin: 0 auto;
+  height: 430px;
+  width: 260px;
+}
+
+.consultation .consultation__wrp-2 .consultation__wrp-2-ul {
+  padding-left: 36px;
+}
+
+.consultation .consultation__wrp-2 .consultation__wrp-2-ul .consultation__wrp-2-ul-li {
+  padding-top: 20px;
+  font-family: "Acrom Regular", sans-serif;
+  color: #222222;
+  letter-spacing: -1px;
+  font-size: 14px;
+  line-height: 18px;
+  list-style: none;
+  position: relative;
+}
+
+.consultation .consultation__wrp-2 .consultation__wrp-2-ul .consultation__wrp-2-ul-li::before {
+  display: block;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  content: "";
+  background: url("../images/marker-strelka.jpg") no-repeat;
+  background-repeat: no-repeat;
+  left: -36px;
+  top: 24px;
+}
+
+.container-fluid-personal-consultation {
+  margin: 0 auto;
+  min-width: 300px;
+  height: 1090px;
+  background: #edf0f2;
+}
+
+.container-fluid-personal-consultation .personal-consultation-header {
+  margin: 0 auto;
+  height: 115px;
+  width: 225px;
+  display: flex;
+}
+
+.container-fluid-personal-consultation .personal-consultation-header .personal-consultation-header__h3 {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: 26px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.container-fluid-personal-consultation .personal-consultation-body {
+  margin: 0 auto;
+  height: 834px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.container-fluid-personal-consultation .personal-consultation-body__box {
+  margin: 0 auto;
+  height: 230px;
+  width: 225px;
+  background: white;
+  box-shadow: -10px 10px 0px 0px rgba(206, 208, 210, 0.23);
+}
+
+.container-fluid-personal-consultation .personal-consultation-body__box .personal-consultation-body__box-p {
+  font-family: "Acrom Regular", sans-serif;
+  color: #222222;
+  letter-spacing: -1px;
+  font-size: 16px;
+  letter-spacing: -1px;
+  line-height: 21px;
+  text-align: left;
+  padding: 10px 30px 0;
+}
+
+.container-fluid-personal-consultation .personal-consultation-body__box .personal-consultation-body__box-p::before {
+  content: "";
+  background-color: #00eaff;
+  width: 60px;
+  height: 2px;
+  display: block;
+  margin: 16px -42px;
+}
+
+.container-fluid-personal-consultation .personal-consultation-body__box-1::after {
+  content: "";
+  background-image: url("../images/01-white-320.png");
+  width: 48px;
+  height: 25px;
+  display: block;
+  margin: -174px 177px;
+}
+
+.container-fluid-personal-consultation .personal-consultation-body__box-2::after {
+  content: "";
+  background-image: url("../images/02-white-320.png");
+  width: 60px;
+  height: 25px;
+  display: block;
+  margin: -216px 167px;
+}
+
+.container-fluid-personal-consultation .personal-consultation-body__box-3::after {
+  content: "";
+  background-image: url("../images/03-white-320.png");
+  width: 60px;
+  height: 25px;
+  display: block;
+  margin: -216px 165px;
+}
+
+.container-fluid-personal-consultation .container-fluid-personal-consultation__wrp-btn {
+  margin: 0 auto;
+  height: 141px;
+  width: 225px;
+  display: flex;
+}
+
+.container-fluid-personal-consultation .container-fluid-personal-consultation__wrp-btn .container-fluid-personal-consultation__btn {
+  width: 225px;
+  height: 110px;
+  cursor: pointer;
+  background: #ff6b08;
+  border: 0;
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+  box-shadow: -1px 0px 15px -4px #ff6b08;
+  text-transform: uppercase;
+  transition: all 0.1s linear;
+}
+
+.container-fluid-personal-consultation .container-fluid-personal-consultation__wrp-btn .container-fluid-personal-consultation__btn:hover {
+  box-shadow: -1px 0px 24px -4px #ff6b08;
+}
+
+.container-fluid-personal-consultation .container-fluid-personal-consultation__wrp-btn .container-fluid-personal-consultation__btn:active {
+  width: 225px;
+  height: 110px;
+  border: 1px solid #fff;
+  box-shadow: -1px 0px 24px -4px #fff;
+}
+
+.it_advantage-header {
+  margin: 0 auto;
+  width: 260px;
+  height: 110px;
+}
+
+.it_advantage-header__h3 {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: 26px;
+  text-align: left;
+  padding: 35px 65px 0 0;
+}
+
+.it_advantage-body {
+  margin: 0 auto;
+  width: 260px;
+  height: 1170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.it_advantage-body__box1 {
+  width: 260px;
+  height: 775px;
+  display: flex;
+  flex-direction: column;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-header {
+  margin: 0 auto;
+  width: 260px;
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-header .it_advantage-body__box1-wrp-header-p {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: -1px;
+  line-height: 18px;
+  padding-right: 5px;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body {
+  margin: 0 auto;
+  width: 225px;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-ul {
+  list-style: none;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-ul .it_advantage-body__box1-wrp-body-li1 {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: #00eaff;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 30px;
+  padding-top: 7px;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-ul .it_advantage-body__box1-wrp-body-li2 {
+  font-family: "Acrom Regular", sans-serif;
+  color: #222222;
+  letter-spacing: -1px;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-block {
+  width: 225px;
+  height: 150px;
+  padding-top: 15px;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-block .it_advantage-body__box1-wrp-body-block1 {
+  width: 225px;
+  height: 65px;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-block .it_advantage-body__box1-wrp-body-block1 .it_advantage-body__box1-wrp-body-block1-p {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: -1px;
+  line-height: 18px;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-block .it_advantage-body__box1-wrp-body-block2 {
+  width: 225px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-block .it_advantage-body__box1-wrp-body-block2 .it_advantage-body__box1-wrp-body-block2-box {
+  width: 112px;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-block .it_advantage-body__box1-wrp-body-block2 .it_advantage-body__box1-wrp-body-block2-box .it_advantage-body__ul {
+  list-style: none;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-block .it_advantage-body__box1-wrp-body-block2 .it_advantage-body__box1-wrp-body-block2-box .it_advantage-body__ul .it_advantage-body__li1 {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: #00eaff;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 25px;
+  letter-spacing: -1px;
+  padding-top: 5px;
+}
+
+.it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-block .it_advantage-body__box1-wrp-body-block2 .it_advantage-body__box1-wrp-body-block2-box .it_advantage-body__ul .it_advantage-body__li2 {
+  font-family: "Acrom Regular", sans-serif;
+  color: #222222;
+  letter-spacing: -1px;
+  font-size: 10px;
+  line-height: 10px;
+  padding-top: 5px;
+}
+
+.it_advantage-body__box2 {
+  width: 260px;
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+}
+
+.it_advantage-body__box2 .it_advantage-body__box2-header {
+  height: 60px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.it_advantage-body__box2 .it_advantage-body__box2-header .it_advantage-body__box2-header-h3 {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -1px;
+  line-height: 22px;
+  padding-top: 10px;
+}
+
+.it_advantage-body__box2 .it_advantage-body__box2-body {
+  height: 290px;
+  width: 260px;
+  position: relative;
+}
+
+.it_advantage-body__box2 .it_advantage-body__box2-body .it_advantage-body__box2-body-ul {
+  padding-left: 15px;
+}
+
+.it_advantage-body__box2 .it_advantage-body__box2-body .it_advantage-body__box2-body-ul .it_advantage-body__box2-body-ul-li {
+  padding: 20px 0 0 20px;
+  font-family: "Acrom Regular", sans-serif;
+  color: #222222;
+  letter-spacing: -1px;
+  font-size: 14px;
+  line-height: 18px;
+  list-style: none;
+  position: relative;
+}
+
+.it_advantage-body__box2 .it_advantage-body__box2-body .it_advantage-body__box2-body-ul .it_advantage-body__box2-body-ul-li::before {
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  content: "";
+  background: url("../images/marker-kub.jpg") no-repeat;
+  background-repeat: no-repeat;
+  left: -15px;
+  top: 24px;
+}
+
+.it_advantage-body__box2 .it_advantage-body__box2-body:after {
+  display: block;
+  width: 311px;
+  height: 193px;
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background-image: url("../images/map-ua-gray.jpg");
+  top: -350px;
+  left: 20px;
+}
+
+.container-fluid-ywti {
+  margin: 0 auto;
+  min-width: 300px;
+  height: 560px;
+  background-image: url("../images/photo-header-320.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ywti-header {
+  margin: 0 auto;
+  height: 110px;
+  width: 260px;
+}
+
+.ywti-header__txt {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: left;
+  text-transform: none;
+  padding-top: 22px;
+  line-height: 22px;
+}
+
+.ywti-body {
+  margin: 0 auto;
+  height: 230px;
+  width: 260px;
+}
+
+.ywti-body__txt2 {
+  font-family: "Acrom Regular", sans-serif;
+  color: white;
+  letter-spacing: -1px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 22px;
+}
+
+.ywti-body__txt2::before {
+  content: "";
+  background-color: #00eaff;
+  width: 60px;
+  height: 2px;
+  display: block;
+  margin: 20px 0;
+}
+
+.ywti-footer {
+  margin: 0 auto;
+  height: 70px;
+  width: 260px;
+}
+
+.ywti-footer__txt3 {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: #00eaff;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 20px;
+}
+
+.ywti-wrp-btn {
+  margin: 0 auto;
+  height: 110px;
+  width: 260px;
+}
+
+.ywti-wrp-btn__btn {
+  width: 260px;
+  height: 70px;
+  cursor: pointer;
+  background: #ff6b08;
+  border: 0;
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+  box-shadow: -1px 0px 15px -4px #ff6b08;
+  text-transform: uppercase;
+  transition: all 0.1s linear;
+}
+
+.ywti-wrp-btn__btn:hover {
+  box-shadow: -1px 0px 24px -4px #ff6b08;
+}
+
+.ywti-wrp-btn__btn:active {
+  width: 260px;
+  height: 70px;
+  border: 1px solid #fff;
+  box-shadow: -1px 0px 24px -4px #fff;
+}
+
+.rewards-container--fluid {
+  margin: 0 auto;
+  min-width: 300px;
+}
+
+.rewards-container {
+  padding-top: 24px;
+  width: 320px;
+  margin: auto;
+  min-height: 1094px;
+}
+
+.rewards-description {
+  width: 225px;
+  margin: auto;
+}
+
+.rewards-subtitle {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -1px;
+  padding-bottom: 20px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* Rewards Box */
+
+.rewards-cards {
+  padding-top: 30px;
+}
+
+.rewards-name {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #edf0f2;
+  display: inline;
+}
+
+.rewards-name--cards {
+  margin-left: 50px;
+}
+
+.rewards-name--partners {
+  margin-left: 45px;
+}
+
+.rewards-card {
+  position: relative;
+  margin: auto;
+  width: 225px;
+  height: 460px;
+  box-shadow: -20px 16px 0 0 #e6e9eb, 10px -5px 20px #f0f0f0;
+  margin-bottom: 74px;
+  padding-top: 40px;
+}
+
+.rewards-card::before {
+  content: '';
+  border: 1px solid #00eaff;
+  width: 60px;
+  display: block;
+  position: absolute;
+  left: -14px;
+  top: 15px;
+  z-index: 1;
+}
+
+.rewards-card__number {
+  font-family: 'montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  color: #edf0f2;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  top: -50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.rewards-card__title {
+  margin: 0;
+  padding-left: 26px;
+  font-size: 18px;
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.3;
+  width: 140px;
+  padding-bottom: 10px;
+}
+
+.rewards-card__description {
+  margin: 0;
+  width: 188px;
+  height: 144px;
+  font-size: 14px;
+  padding-left: 26px;
+  line-height: 1.5;
+  font-family: "Acrom Regular", sans-serif;
+  color: #222222;
+  letter-spacing: -1px;
+}
+
+.rewards-img {
+  text-align: center;
+}
+
+/* Social Box  */
+
+.rewards-social {
+  background-image: url(../images/oon.jpg);
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 225px;
+  margin: auto;
+}
+
+.rewards-social__title {
+  text-transform: uppercase;
+  font-family: "Acrom Regular", sans-serif;
+  color: #222222;
+  letter-spacing: -1px;
+  font-weight: 800;
+  font-size: 24px;
+  color: #222;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+.rewards-social__description {
+  font-family: "Acrom Regular", sans-serif;
+  color: #222222;
+  letter-spacing: -1px;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.5;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.our_rewards-body__partners-ul {
+  width: 260px;
+  padding: 0.3125rem;
+  margin: 0 auto;
+}
+
+.our_rewards-body__partners-link {
+  padding: 0.5125rem;
+}
+
+.our_rewards-body__partners-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rewards-partners__logo {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width: 270px;
+  margin: auto;
+  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.epam {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 59px;
+  height: 21px;
+  background: url("../images/epam.jpg");
+}
+
+.kuehne-nagel {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 72px;
+  height: 38px;
+  background: url("../images/kuehne-nagel.jpg");
+}
+
+.crytek {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 78px;
+  height: 29px;
+  background: url("../images/crytek.jpg");
+}
+
+.ciklum {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 138px;
+  height: 27px;
+  background: url("../images/ciklum.jpg");
+}
+
+.inovecs {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 88px;
+  height: 17px;
+  background: url("../images/inovecs.jpg");
+}
+
+.softserve {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 117px;
+  height: 20px;
+  background: url("../images/softserve.jpg");
+}
+
+.global-logic {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 108px;
+  height: 20px;
+  background: url("../images/global-logic.jpg");
+}
+
+.alfa-bank {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 109px;
+  height: 29px;
+  background: url("../images/alfa-bank.jpg");
+}
+
+.go-iteens {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 92px;
+  height: 23px;
+  background: url("../images/go-iteens.jpg");
+}
+
+.infopulse {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 76px;
+  height: 19px;
+  background: url("../images/infopulse.jpg");
+}
+
+.ubisift {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 40px;
+  height: 25px;
+  background: url("../images/ubisift.jpg");
+}
+
+.luxoft {
+  margin: 10px 0;
+  display: block;
+  width: 73px;
+  height: 37px;
+  background: url("../images/luxoft.jpg");
+}
+
+.lenal {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 76px;
+  height: 21px;
+  background: url("../images/lenal.jpg");
+}
+
+.terrasoft {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 46px;
+  height: 16px;
+  background: url("../images/terrasoft.jpg");
+}
+
+.grossum {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 88px;
+  height: 24px;
+  background: url("../images/grossum.jpg");
+}
+
+.template-monster {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: block;
+  width: 134px;
+  height: 22px;
+  background: url("../images/template-monster.jpg");
+}
+
+.container-fluid-footer {
+  margin: 0 auto;
+  min-width: 300px;
+  height: 480px;
+  background-image: url("../images/photo-footer-320.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer {
+  margin: 0 auto;
+  height: 480px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__txt {
+  width: 260px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer__txt .footer__txt_link {
+  font-family: "Acrom ExtraBold", sans-serif;
+  color: #00eaff;
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer__wrp {
+  height: 150px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__wrp .footer__wrp-logo {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer__wrp .footer__wrp-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__wrp .footer__wrp-p .footer__wrp-p-txt {
+  font-family: "Acrom Regular", sans-serif;
+  color: white;
+  letter-spacing: -1px;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (min-width: 320px) {
+  .container-fluid-header {
+    margin: 0 auto;
+    min-width: 300px;
+    height: 800px;
+    background-image: url("../images/photo-header-320.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container-fluid-ywti {
+    margin: 0 auto;
+    min-width: 300px;
+    height: 560px;
+    background-image: url("../images/photo-header-320.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container-fluid-footer {
+    margin: 0 auto;
+    min-width: 300px;
+    height: 480px;
+    background-image: url("../images/photo-footer-320.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 320px) and (min-resolution: 192dpi) {
+  .container-fluid-header {
+    background-image: url("../images/photo-header-320@x2.jpg");
+  }
+
+  .container-fluid-ywti {
+    background-image: url("../images/photo-header-320@x2.jpg");
+  }
+
+  .container-fluid-footer {
+    background-image: url("../images/photo-footer-320@x2.jpg");
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid-header {
+    margin: 0 auto;
+    min-width: 748px;
+    min-height: 900px;
+    background-image: url("../images/photo-header-768.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .header {
+    margin: 0 auto;
+    height: 900px;
+    width: 620px;
+  }
+
+  .header__txt {
+    margin: 35px auto 0;
+    width: 620px;
+    height: 410px;
+  }
+
+  .header__txt .header__txt-p-white {
+    font-family: "Acrom Regular", sans-serif;
+    color: white;
+    letter-spacing: -1px;
+    font-size: 14px;
+    padding: 30px 108px 30px 0;
+  }
+
+  .header__txt .header__txt-h1-blue {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: #00eaff;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 40px;
+  }
+
+  .header__txt .header__txt-p-white--18px {
+    font-size: 18px;
+    padding-right: 44px;
+  }
+
+  .header__txt .header__txt-p-yellow {
+    font-family: "Acrom Bold", sans-serif;
+    color: #f9ae23;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 18px;
+  }
+
+  .header__txt .header__txt-h2-yellow {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: #f9ae23;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 40px;
+  }
+
+  .header__form {
+    width: 620px;
+    height: 400px;
+    padding: 40px 60px;
+  }
+
+  .header__form .header__form-h3-black {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .header__form .header__form-p-black {
+    font-family: "Acrom Light", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 15px;
+  }
+
+  .header__form .header__form-wrp {
+    width: 470px;
+    height: 260px;
+  }
+
+  .header__form .header__form-wrp .header__form-wrp-box {
+    padding-top: 15px;
+  }
+
+  .header__form .header__form-wrp input {
+    border: 1px solid #757575;
+    box-shadow: none;
+    width: 470px;
+  }
+
+  .header__form .header__form-wrp .header__form-wrp-btn {
+    padding-top: 20px;
+  }
+
+  .header__form .header__form-wrp .header__form-wrp-btn .header__form-btn {
+    width: 470px;
+  }
+
+  .header__form .header__form-wrp .header__form-wrp-btn .header__form-btn:active {
+    width: 470px;
+  }
+
+  .header__form .header__form-link-wrp {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .header__form .header__form-link-wrp .header__form-link {
+    font-family: "Acrom Regular", sans-serif;
+    color: #5d6066;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .consultation {
+    margin: 0 auto;
+    height: 470px;
+    width: 620px;
+  }
+
+  .consultation .consultation__wrp-1 {
+    margin: 0 auto;
+    height: 150px;
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 40px;
+  }
+
+  .consultation .consultation__wrp-1 .consultation__wrp-1-h3 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 30px;
+  }
+
+  .consultation .consultation__wrp-2 {
+    margin: 0 auto;
+    height: 265px;
+    width: 620px;
+  }
+
+  .consultation .consultation__wrp-2 .consultation__wrp-2-ul {
+    padding-left: 36px;
+  }
+
+  .consultation .consultation__wrp-2 .consultation__wrp-2-ul .consultation__wrp-2-ul-li {
+    padding-top: 20px;
+    font-family: "Acrom Regular", sans-serif;
+    color: #222222;
+    letter-spacing: -1px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .container-fluid-personal-consultation {
+    margin: 0 auto;
+    min-width: 748px;
+    height: 570px;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-header {
+    margin: 0 auto;
+    height: 120px;
+    width: 748px;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-header .personal-consultation-header__h3 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    padding: 50px 60px 0;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body {
+    height: 320px;
+    width: 748px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body__box {
+    margin: 45px auto;
+    height: 230px;
+    width: 228px;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body__box-1::after {
+    content: "";
+    background-image: url("../images/01-white-768.png");
+    width: 67px;
+    height: 31px;
+    display: block;
+    margin: -180px 161px;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body__box-2::after {
+    content: "";
+    background-image: url("../images/02-white-768.png");
+    width: 82px;
+    height: 31px;
+    display: block;
+    margin: -222px 145px;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body__box-3::after {
+    content: "";
+    background-image: url("../images/03-white-768.png");
+    width: 83px;
+    height: 31px;
+    display: block;
+    margin: -222px 146px;
+  }
+
+  .container-fluid-personal-consultation .container-fluid-personal-consultation__wrp-btn {
+    margin: 0 auto;
+    height: 130px;
+    width: 530px;
+    padding-top: 0;
+  }
+
+  .container-fluid-personal-consultation .container-fluid-personal-consultation__wrp-btn .container-fluid-personal-consultation__btn {
+    width: 530px;
+    height: 70px;
+    font-size: 18px;
+    text-transform: none;
+  }
+
+  .container-fluid-personal-consultation .container-fluid-personal-consultation__wrp-btn .container-fluid-personal-consultation__btn:active {
+    width: 530px;
+    height: 70px;
+  }
+
+  .it_advantage-header {
+    width: 530px;
+    height: 115px;
+  }
+
+  .it_advantage-header__h3 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 55px 0 0 0;
+  }
+
+  .it_advantage-body {
+    width: 748px;
+    height: 920px;
+    justify-content: space-between;
+  }
+
+  .it_advantage-body__box1 {
+    width: 700px;
+    height: 540px;
+    box-shadow: -15px 15px 0 0 rgba(206, 208, 210, 0.23), 0 0 30px 0 rgba(206, 208, 210, 0.23);
+  }
+
+  .it_advantage-body__box1 .it_advantage-body__box1-wrp-header {
+    margin: 0 auto;
+    width: 700px;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .it_advantage-body__box1 .it_advantage-body__box1-wrp-header .it_advantage-body__box1-wrp-header-p {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 180px;
+    text-align: center;
+  }
+
+  .it_advantage-body__box1 .it_advantage-body__box1-wrp-body {
+    margin: 0 auto;
+    width: 700px;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 55px;
+  }
+
+  .it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-ul {
+    list-style: none;
+    width: 215px;
+    height: 115px;
+  }
+
+  .it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-ul .it_advantage-body__box1-wrp-body-li1 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: #00eaff;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 30px;
+    padding-top: 15px;
+  }
+
+  .it_advantage-body__box1 .it_advantage-body__box1-wrp-body .it_advantage-body__box1-wrp-body-ul .it_advantage-body__box1-wrp-body-li2 {
+    font-family: "Acrom Regular", sans-serif;
+    color: #222222;
+    letter-spacing: -1px;
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  .it_advantage-body__box2 {
+    width: 660px;
+    height: 320px;
+  }
+
+  .it_advantage-body__box2 .it_advantage-body__box2-header {
+    height: 70px;
+    width: 660px;
+  }
+
+  .it_advantage-body__box2 .it_advantage-body__box2-header .it_advantage-body__box2-header-h3 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .it_advantage-body__box2 .it_advantage-body__box2-body {
+    height: 290px;
+    width: 360px;
+  }
+
+  .it_advantage-body .it_advantage-body__box2-body:after {
+    display: block;
+    width: 311px;
+    height: 193px;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    background-image: url("../images/map-ua-blue.jpg");
+    top: -351px;
+    left: 305px;
+  }
+
+  .container-fluid-ywti {
+    margin: 0 auto;
+    min-width: 748px;
+    min-height: 600px;
+    background-image: url("../images/photo-header-768.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ywti-header {
+    height: 110px;
+    width: 660px;
+    padding-bottom: 40px;
+  }
+
+  .ywti-header__txt {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: left;
+    text-transform: none;
+    padding-top: 40px;
+    line-height: 26px;
+  }
+
+  .ywti-body {
+    margin: 0 auto;
+    height: 240px;
+    width: 660px;
+  }
+
+  .ywti-body__txt2 {
+    font-family: "Acrom Regular", sans-serif;
+    color: white;
+    letter-spacing: -1px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+    padding-right: 285px;
+  }
+
+  .ywti-body__txt2::before {
+    content: "";
+    background-color: #00eaff;
+    width: 60px;
+    height: 2px;
+    display: block;
+    margin: 20px 0;
+  }
+
+  .ywti-footer {
+    margin: 0 auto;
+    height: 120px;
+    width: 660px;
+  }
+
+  .ywti-footer__txt3 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: #00eaff;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 40px;
+  }
+
+  .ywti-wrp-btn {
+    margin: 0 auto;
+    height: 100px;
+    width: 660px;
+  }
+
+  .ywti-wrp-btn__btn {
+    width: 530px;
+    height: 70px;
+    cursor: pointer;
+    background: #ff6b08;
+    border: 0;
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    box-shadow: -1px 0px 15px -4px #ff6b08;
+    text-transform: uppercase;
+    transition: all 0.1s linear;
+  }
+
+  .ywti-wrp-btn__btn:hover {
+    box-shadow: -1px 0px 24px -4px #ff6b08;
+  }
+
+  .ywti-wrp-btn__btn:active {
+    width: 530px;
+    height: 70px;
+    border: 1px solid #fff;
+    box-shadow: -1px 0px 24px -4px #fff;
+  }
+
+  .rewards-container {
+    width: 748px;
+    min-height: 696px;
+  }
+
+  .rewards-description {
+    width: 600px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+
+  .rewards-subtitle {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 40px;
+    margin: 20px 0 0;
+  }
+
+  .rewards-name {
+    font-family: "Acrom Regular", sans-serif;
+    color: #222222;
+    letter-spacing: -1px;
+    font-size: 16px;
+  }
+
+  .rewards-name--partners {
+    margin: 0 0 0 10px;
+  }
+
+  .rewards-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .our_rewards-body__partners-ul {
+    width: 704px;
+  }
+
+  .rewards-social {
+    background-size: 35%;
+    background-position: top right;
+    width: 418px;
+    margin-bottom: 40px;
+  }
+
+  .rewards-partners {
+    width: 654px;
+    margin: 0 auto;
+  }
+
+  .rewards-partners__logo {
+    width: 100%;
+  }
+
+  .rewards-logo {
+    padding: 10px;
+  }
+
+  .container-fluid-footer {
+    margin: 0 auto;
+    min-width: 748px;
+    min-height: 460px;
+    background-image: url("../images/photo-footer-768.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .footer {
+    margin: 0 auto;
+    height: 460px;
+    width: 620px;
+  }
+
+  .footer__txt {
+    width: 620px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .footer__txt .footer__txt_link {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: #00eaff;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  .footer__wrp {
+    height: 60px;
+    width: 620px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer__wrp .footer__wrp-logo {
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .footer__wrp .footer__wrp-p {
+    padding-left: 10px;
+  }
+
+  .footer__wrp .footer__wrp-p .footer__wrp-p-txt {
+    font-family: "Acrom Regular", sans-serif;
+    color: white;
+    letter-spacing: -1px;
+    font-size: 18px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
+  .container-fluid-header {
+    background-image: url("../images/photo-header-768@x2.jpg");
+  }
+
+  .container-fluid-ywti {
+    background-image: url("../images/photo-header-768@x2.jpg");
+  }
+
+  .container-fluid-footer {
+    background-image: url("../images/photo-footer-768@x2.jpg");
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid-header {
+    margin: 0 auto;
+    min-width: 1180px;
+    height: 948px;
+    background-image: url("../images/photo-header-1200.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .header {
+    margin: 0 auto;
+    height: 948px;
+    width: 1170px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header__txt {
+    margin: 35px 0 0;
+    width: 650px;
+    height: 820px;
+  }
+
+  .header__txt .header__txt-logo {
+    padding-bottom: 0px;
+  }
+
+  .header__txt .header__txt-p-white {
+    font-family: "Acrom Regular", sans-serif;
+    color: white;
+    letter-spacing: -1px;
+    font-size: 20px;
+    padding: 56px 20px 60px 0;
+  }
+
+  .header__txt .header__txt-h1-blue {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: #00eaff;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 60px;
+    letter-spacing: -4px;
+  }
+
+  .header__txt .header__txt-p-white--35px {
+    font-size: 35px;
+    padding-right: 40px;
+  }
+
+  .header__txt .header__txt-p-yellow {
+    font-family: "Acrom Bold", sans-serif;
+    color: #f9ae23;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 29px;
+  }
+
+  .header__txt .header__txt-h2-yellow {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: #f9ae23;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 55px;
+    letter-spacing: -4px;
+  }
+
+  .header__form {
+    width: 460px;
+    height: 670px;
+    padding: 50px 35px;
+    margin-top: 140px;
+  }
+
+  .header__form .header__form-h3-black {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: left;
+    letter-spacing: -1px;
+  }
+
+  .header__form .header__form-p-black {
+    font-family: "Acrom Light", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 10px 0 0;
+    text-align: left;
+    line-height: 22px;
+    letter-spacing: -1px;
+  }
+
+  .header__form .header__form-wrp {
+    width: 390px;
+    height: 410px;
+  }
+
+  .header__form .header__form-wrp .header__form-wrp-box {
+    padding-top: 30px;
+  }
+
+  .header__form .header__form-wrp input {
+    border: 1px solid #757575;
+    box-shadow: none;
+    width: 390px;
+    height: 60px;
+  }
+
+  .header__form .header__form-wrp .header__form-wrp-btn {
+    padding-top: 42px;
+  }
+
+  .header__form .header__form-wrp .header__form-wrp-btn .header__form-btn {
+    width: 390px;
+    height: 60px;
+  }
+
+  .header__form .header__form-wrp .header__form-wrp-btn .header__form-btn:active {
+    width: 390px;
+    height: 60px;
+  }
+
+  .header__form .header__form-link-wrp {
+    padding-top: 65px;
+    text-align: center;
+  }
+
+  .header__form .header__form-link-wrp .header__form-link {
+    font-family: "Acrom Regular", sans-serif;
+    color: #5d6066;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .consultation {
+    margin: 0 auto;
+    height: 664px;
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .consultation .consultation__wrp-1 {
+    margin: 88px 0 0;
+    height: 450px;
+    width: 500px;
+  }
+
+  .consultation .consultation__wrp-1 .consultation__wrp-1-h3 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 48px;
+  }
+
+  .consultation .consultation__wrp-2 {
+    margin: 145px 0 0;
+    height: 450px;
+    width: 420px;
+    padding: 0;
+  }
+
+  .consultation .consultation__wrp-2 .consultation__wrp-2-ul-li {
+    padding-top: 40px;
+    font-family: "Acrom Regular", sans-serif;
+    color: #222222;
+    letter-spacing: -1px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .container-fluid-personal-consultation {
+    margin: 0 auto;
+    min-width: 1180px;
+    height: 860px;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-header {
+    margin: 0 auto;
+    height: 190px;
+    width: 1140px;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-header .personal-consultation-header__h3 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    padding: 90px 10px 0;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body {
+    height: 455px;
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body__box {
+    margin: 89px auto;
+    height: 278px;
+    width: 348px;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body__box .personal-consultation-body__box-p {
+    font-family: "Acrom Regular", sans-serif;
+    color: #222222;
+    letter-spacing: -1px;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 30px 30px 0;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body__box-1::after {
+    content: "";
+    background-image: url("../images/01-white-1200.png");
+    width: 143px;
+    height: 70px;
+    display: block;
+    margin: -218px 205px;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body__box-2::after {
+    content: "";
+    background-image: url("../images/02-white-1200.png");
+    width: 177px;
+    height: 70px;
+    display: block;
+    margin: -246px 172px;
+  }
+
+  .container-fluid-personal-consultation .personal-consultation-body__box-3::after {
+    content: "";
+    background-image: url("../images/03-white-1200.png");
+    width: 177px;
+    height: 70px;
+    display: block;
+    margin: -274px 172px;
+  }
+
+  .container-fluid-personal-consultation .container-fluid-personal-consultation__wrp-btn {
+    margin: 0 auto;
+    height: 215px;
+    width: 810px;
+    padding-top: 0;
+  }
+
+  .container-fluid-personal-consultation .container-fluid-personal-consultation__wrp-btn .container-fluid-personal-consultation__btn {
+    width: 810px;
+    height: 110px;
+    font-size: 25px;
+    text-transform: none;
+  }
+
+  .container-fluid-personal-consultation .container-fluid-personal-consultation__wrp-btn .container-fluid-personal-consultation__btn:active {
+    width: 810px;
+    height: 110px;
+  }
+
+  .rewards {
+    width: 1140px;
+  }
+
+  .reward-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .rewards-description {
+    width: 700px;
+    margin: 30px 0;
+  }
+
+  .rewards-container {
+    width: 1170px;
+  }
+
+  .rewards-social__title {
+    margin-top: 20px;
+  }
+
+  .rewards-subtitle {
+    width: 570px;
+    font-family: "Acrom Regular", sans-serif;
+    color: #222222;
+    letter-spacing: -1px;
+    font-size: 48px;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 1.25;
+  }
+
+  .rewards-name--social {
+    margin-bottom: 20px;
+  }
+
+  .rewards-social {
+    order: 0;
+    width: 390px;
+  }
+
+  .rewards-partners {
+    order: 1;
+    width: 668px;
+    margin: 0;
+    margin-left: 80px;
+  }
+
+  .rewards {
+    order: 2;
+    width: 1170px;
+  }
+
+  .rewards-card {
+    position: relative;
+    display: flex;
+    width: 390px;
+    box-shadow: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    align-items: flex-start;
+  }
+
+  .rewards-card__number {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    font-family: "Acrom Regular", sans-serif;
+    color: white;
+    letter-spacing: -1px;
+    font-size: 30px;
+  }
+
+  .rewards-card::before {
+    display: none;
+  }
+
+  .rewards-name--cards {
+    margin-left: 10px;
+  }
+
+  .container-fluid-ywti {
+    margin: 0 auto;
+    min-width: 1180px;
+    height: 640px;
+    background-image: url("../images/photo-header-1200.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .wrp-ywti {
+    margin: 0 auto;
+    width: 1170px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .wrp-ywti .ywti-header {
+    height: 200px;
+    width: 700px;
+  }
+
+  .wrp-ywti .ywti-header__txt {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    text-transform: none;
+    padding: 105px 10px 0 15px;
+    line-height: 30px;
+  }
+
+  .wrp-ywti .ywti-body {
+    height: 600px;
+    width: 340px;
+    order: 1;
+  }
+
+  .wrp-ywti .ywti-body__txt2 {
+    font-family: "Acrom Regular", sans-serif;
+    color: white;
+    letter-spacing: -1px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 18px;
+    padding: 165px 0 0 0;
+    line-height: 42px;
+  }
+
+  .wrp-ywti .ywti-body__txt2::before {
+    content: "";
+    background-color: #00eaff;
+    width: 60px;
+    height: 2px;
+    display: block;
+    margin: 10px 0;
+  }
+
+  .wrp-ywti .ywti-footer {
+    height: 200px;
+    width: 700px;
+  }
+
+  .wrp-ywti .ywti-footer__txt3 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: #00eaff;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 48px;
+    line-height: 50px;
+    padding: 45px 0 0 15px;
+    letter-spacing: -3px;
+  }
+
+  .wrp-ywti .ywti-wrp-btn {
+    height: 220px;
+    width: 700px;
+  }
+
+  .wrp-ywti .ywti-wrp-btn__btn {
+    width: 680px;
+    height: 110px;
+    margin-left: 15px;
+    cursor: pointer;
+    background: #ff6b08;
+    border: 0;
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: white;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    box-shadow: -1px 0px 15px -4px #ff6b08;
+    text-transform: uppercase;
+    transition: all 0.1s linear;
+  }
+
+  .wrp-ywti .ywti-wrp-btn__btn:hover {
+    box-shadow: -1px 0px 24px -4px #ff6b08;
+  }
+
+  .wrp-ywti .ywti-wrp-btn__btn:active {
+    width: 680px;
+    height: 110px;
+    border: 1px solid #fff;
+    box-shadow: -1px 0px 24px -4px #fff;
+  }
+
+  .container-fluid-our_rewards {
+    margin: 0 auto;
+    min-width: 300px;
+    height: 1320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .rewards-subtitle {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    width: 600px;
+  }
+
+  .our_rewards {
+    width: 1200px;
+    height: 115px;
+  }
+
+  .our_rewards .our_rewards-header {
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  .our_rewards .our_rewards-header__h2 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -1px;
+    line-height: 1.25;
+    text-align: left;
+    padding: 35px 60px 0 0;
+    display: block;
+  }
+
+  .our_rewards .our_rewards-header__h3 {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1px;
+    line-height: 26px;
+    text-align: left;
+    padding: 40px 65px 40px 0;
+  }
+
+  .our_rewards .our_rewards-header .our_rewards-body {
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .container-fluid-footer {
+    margin: 0 auto;
+    min-width: 1180px;
+    height: 1050px;
+    background-image: url("../images/photo-footer-1200.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .footer {
+    margin: 0 auto;
+    height: 1050px;
+    width: 1140px;
+  }
+
+  .footer__txt {
+    width: 1140px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .footer__txt .footer__txt_link {
+    font-family: "Acrom ExtraBold", sans-serif;
+    color: #00eaff;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+
+  .footer__wrp {
+    height: 140px;
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer__wrp .footer__wrp-logo {
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .footer__wrp .footer__wrp-p {
+    padding-left: 20px;
+  }
+
+  .footer__wrp .footer__wrp-p .footer__wrp-p-txt {
+    font-family: "Acrom Regular", sans-serif;
+    color: white;
+    letter-spacing: -1px;
+    font-size: 25px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi) {
+  .container-fluid-header {
+    background-image: url("../images/photo-header-1200@x2.jpg");
+  }
+
+  .container-fluid-ywti {
+    background-image: url("../images/photo-header-1200@x2.jpg");
+  }
+
+  .container-fluid-footer {
+    background-image: url("../images/photo-footer-1200@x2.jpg");
+  }
+}
